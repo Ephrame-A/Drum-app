@@ -1,1 +1,2 @@
-# Here are my projects which i have done with react
+# Here is Drum app which I have done using react
+# It is one of projects for freeCodeCamp frontend libraries certification
