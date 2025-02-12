@@ -1,0 +1,55 @@
+.big{
+    background-color: grey;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.drumBoard{
+    width: 60%;
+    height: 40%;
+    background-color: lightgray;
+    border: 5px solid orange;
+    display: flex;
+}
+.keyBoard{
+    width: 60%;
+    height: 86%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.drumKeys{
+    width: 25%;
+    height: 30%;
+    border: 0.5px solid black;
+    box-shadow: 0 3px 3px 0;
+    background-color: darkgrey;
+    border-radius: 4px;
+}
+.drumKeys:active{
+    background-color: orange;
+}
+.controller{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%
+}
+.power{
+    width: 30%;
+    height: 7%
+}
+.displayer{
+    width: 90%;
+    height: 15%;
+    background-color: darkgray;
+}
+.range{
+    width: 70%;
+    
+}
